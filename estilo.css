@@ -1,8 +1,40 @@
 body{
-    background-color: #FCE1ED;
-    color: #FCC5DE;
+    background-color: #FA82AE;
+    color: #F61F6E;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
-    color: #FF78B3;
+    color: #F5005A;
+}
+
+div{
+    background-color: #FEE8F0;
+    padding: 20px;
+    margin: 20px 100px;
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px #F61F6E;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    height: 400px;
+    margin-top: -300px;
+    border-radius: 60%;
+    box-shadow: 10px 5px 5px #F61F6E;
+}
+
+.introducao{
+    margin-top: 300px;
+}
+
+footer{
+    background-color: #FEE8F0;
+    text-align: center;
+    padding: 10px 0px;
 }
